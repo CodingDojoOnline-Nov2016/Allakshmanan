@@ -1,0 +1,192 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#wrapper{
+ width: 870px;
+ height: auto;
+ background-color: white;
+ margin: 0px auto;
+}
+#header{
+ height: 100px;
+ width: 870px;
+ margin: 0px auto;
+
+}
+#headtop{
+ height: 72px;
+ width: 870px;
+ margin: 0px auto;
+ background-image: url(bimg.png);
+background-repeat: repeat;
+ }
+#headmenu{
+ height: 28px;
+ width: 870px;
+ margin: 0px auto;
+ background-color: #f2f2f2;
+
+}
+#navigation{
+ width: 150px;
+ background-color: #f2f2f2;
+ display: inline-block;
+  margin-top: 20px;
+  margin-left: 25px;
+  padding-left: 5px;
+  padding-top:5px;
+  border: 1px; grey;
+  border-style: ridge;
+ }
+
+#maincontent{
+ width:600px;
+ background-color: white;
+ display: inline-block;
+ vertical-align: top;
+ padding-left: 15px;
+ padding-right: 40px;
+ padding-bottom: 10px;
+ margin-top: 20px;
+}
+
+#maincontent h4{
+     color: #B51D0E;
+     font-family: arial black;
+     font-weight:bolder;
+     font-size: 15px;
+}
+
+#content{
+     color: #B51D0E;
+     font-family: Verdana;
+}
+
+#content p{
+     color: black;
+     font-family: verdana;
+     font-size: 11px;
+}
+
+#content li {
+     padding-left: 25px;
+     color: #B51D0E;
+     font-family: verdana;
+     font-size: 11px;
+     text-decoration: underline;
+}
+
+#excep li{
+     padding-left: 25px;
+     color: black;
+     font-family: verdana;
+     text-decoration: none;
+}
+#excep ui{
+     margin-bottom: 10px;
+}
+#dec{
+     text-decoration: underline;
+     color: #B51D0E;
+
+}
+
+#orders{
+     padding-left: 35px;
+
+}
+#headtopleft{
+     width:559px;
+     height: 72px;
+     background-image: url(headerimg.png);
+     display: inline-block;
+}
+#headtopright{
+     width:300px;
+     height: 72px;
+     display: inline-block;
+     vertical-align: top;
+     background-image: url(bimg.png);
+     background-repeat: repeat;
+
+
+}
+#righttext{
+     font-size: 11px;
+     font-family: sans-serif;
+     color:white;
+     padding-top: 5px;
+     padding-left: 50px;
+     padding-right: 25px;
+
+}
+#search{
+     display:block;
+     width: 115px;
+     height: 12px;
+     font-size:12px;
+     display: inline-block;
+}
+
+.fcol{
+     color: yellow;
+     text-decoration:underline;
+}
+#searchbox{
+     padding-top: 10px;
+     padding-left: 100px;
+
+
+}
+#submit {
+ color: white;
+ font-size: 10px;
+ width: 42px;
+ height: 15px;
+ border-color: white;
+ border-width: thin;
+ margin: 0;
+ padding: 0;
+ background-image: url(bimg.png);
+ background-repeat: repeat;
+ display: inline-block;
+}
+
+
+
+#navsli {
+    float: left;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 13px;
+    color: grey;
+    font-weight: bolder;
+
+
+}
+
+
+#navs{
+     padding-left: 20px;
+     padding-top: 5px;
+     list-style-type: none;
+     overflow: hidden;
+
+}
+
+#navid{
+     color: #B51D0E;
+     font-size: 11px;
+     font-family: sans-serif;
+     text-decoration: underline;
+     list-style-image: url(listbullet.png);
+     padding-left: 20px;
+}
+
+#navid li{
+     margin:10px;
+}

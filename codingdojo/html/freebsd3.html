@@ -2,6 +2,7 @@
 <html lang="en">
    <head>
       <title>Loups</title>
+      <meta charset="UTF-8">
       <link rel="stylesheet" type="text/css" href="stylebsd.css">
    </head>
    <body>
@@ -18,6 +19,7 @@
                                  <form>
                                       <input type=text id="search" placeholder="Search">
                                       <input type=submit value="Search" id="submit">
+                                 </form>
                             </div>
                             <div id="clear">
                             </div>
@@ -25,21 +27,21 @@
                   </div>
                   <div id="headmenu">
                        <ul id="navs">
-                            <li id="navsli"> Home </li>
-                            <li id="navsli"> | </li>
-                            <li id="navsli"> About </li>
-                            <li id="navsli"> | </li>
-                            <li id="navsli"> Get FreeBSD </li>
-                            <li id="navsli"> | </li>
-                            <li id="navsli"> Docmentation </li>
-                            <li id="navsli"> | </li>
-                            <li id="navsli"> Community </li>
-                            <li id="navsli"> | </li>
-                            <li id="navsli"> Developers </li>
-                            <li id="navsli"> | </li>
-                            <li id="navsli"> Support </li>
-                            <li id="navsli"> | </li>
-                            <li id="navsli"> Foundation </li>
+                            <li class="navsli"> Home </li>
+                            <li class="navsli"> | </li>
+                            <li class="navsli"> About </li>
+                            <li class="navsli"> | </li>
+                            <li class="navsli"> Get FreeBSD </li>
+                            <li class="navsli"> | </li>
+                            <li class="navsli"> Docmentation </li>
+                            <li class="navsli"> | </li>
+                            <li class="navsli"> Community </li>
+                            <li class="navsli"> | </li>
+                            <li class="navsli"> Developers </li>
+                            <li class="navsli"> | </li>
+                            <li class="navsli"> Support </li>
+                            <li class="navsli"> | </li>
+                            <li class="navsli"> Foundation </li>
 
                        </ul>
                   </div>
@@ -65,7 +67,7 @@
                       <h6> Introduction </h6><br>
                       <p> The FreeBSD/ppc project pages contain information about the FreeBSD port to the PowerPC@ architecture.  As with the port itself, these pages are still a work in progress. </p><br>
                       <h6> Table of Contents </h6><br>
-                      <ui>
+                      <ul>
                            <li>Status</li>
                            <li>Latest News</li>
                            <li>Port FAQs</li>
@@ -74,18 +76,18 @@
                            <li>Known Issues</li>
                            <li>Documentation, White Papers, Utilities</li>
                            <li>Other links of interest </li>
-                      </ui><br>
+                      </ul><br>
                       <h6> Status </h6><br>
-                      <p> The FreeBSD/ppc port is still a <span id="dec"> Tier 2</span> platform.  That means it is not being fully supported by our security officer; release engineers and toolchain maintainers. </p><br>
+                      <p> The FreeBSD/ppc port is still a <span class="dec"> Tier 2</span> platform.  That means it is not being fully supported by our security officer; release engineers and toolchain maintainers. </p><br>
                       <hr>
                       <br>
                       <h6> Latest News</h6><br>
-                      <ui id="excep">
+                      <ul id="excep">
                            <li><b> 03 April, 2009</b>: Support for the PowerPC G5 has been committed to SVN </li>
                            <li> <b>03 March, 2008</b>: Support for Freescale@ PowerQUICC III MPC85XX family system-on-chip development boards has been committed into CVS </li>
                            <li> <b>23 February, 2008</b>: FreeBSD 7.0 is the first release to officially support the FreeBSD/ppc port. </li>
 
-                      </ui><br>
+                      </ul><br>
                       <hr>
                       <br>
                        <h6> Frequently Asked Questions</h6><br>
@@ -96,7 +98,7 @@
                       </ol>
                       <br>
                        <h6> How can I install FreeBSD/ppc?</h6><br>
-                       <p> ISO images of FreeBSD 8.2 suitable for New-World Macs are available for download, for details on how to obtain these the <span id="dec">release announcement.</span>  Please follow instructions given <span id="dec"> here.</span></p><br>
+                       <p> ISO images of FreeBSD 8.2 suitable for New-World Macs are available for download, for details on how to obtain these the <span class="dec">release announcement.</span>  Please follow instructions given <span id="dec"> here.</span></p><br>
                        <h6> How to use ports on FreeBSD/ppc?</h6><br>
 
                   </div>

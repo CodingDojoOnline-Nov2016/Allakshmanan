@@ -30,7 +30,7 @@ background-repeat: repeat;
 
 }
 #navigation{
- width: 150px;
+ width: 145px;
  background-color: #f2f2f2;
  display: inline-block;
   margin-top: 20px;
@@ -68,6 +68,12 @@ background-repeat: repeat;
      color: black;
      font-family: verdana;
      font-size: 11px;
+     margin-top: 11px;
+     margin-bottom: 11px;
+}
+
+#content ul{
+     margin-bottom: 12px;
 }
 
 #content li {
@@ -169,12 +175,14 @@ background-repeat: repeat;
     font-weight: bolder;
 
 
+
 }
 
 
 #navs{
      padding-left: 20px;
      padding-top: 5px;
+
      list-style-type: none;
      overflow: hidden;
 
@@ -187,8 +195,19 @@ background-repeat: repeat;
      text-decoration: underline;
      list-style-image: url(listbullet.png);
      padding-left: 20px;
+     padding-right: 10px;
 }
 
 #navid li{
      margin:10px;
+}
+#hrule{
+     height: 1px;
+     background-color: black;
+     border-color: grey;
+}
+
+.brks {
+     margin-bottom: 12px;
+
 }

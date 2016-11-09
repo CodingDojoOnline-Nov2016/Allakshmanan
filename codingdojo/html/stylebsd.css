@@ -99,12 +99,9 @@ background-repeat: repeat;
      color: #B51D0E;
 
 }
-
 #orders{
      padding-left: 3px;
 }
-
-
 #headtopleft{
      width:559px;
      height: 72px;
@@ -118,71 +115,53 @@ background-repeat: repeat;
      vertical-align: top;
      background-image: url(bimg.png);
      background-repeat: repeat;
-
-
 }
-#righttext{
-     font-size: 11px;
-     font-family: sans-serif;
-     color:white;
-     padding-top: 5px;
-     padding-left: 50px;
-     padding-right: 25px;
-
-}
-#search{
-     display:block;
-     width: 115px;
-     height: 12px;
-     font-size:12px;
-     display: inline-block;
-}
+    #headtopright p{
+         font-size: 11px;
+         font-family: sans-serif;
+         color:white;
+         margin: 5px 25px 0 50px;
+    }
+    #headtopright form{
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+        #headtopright form input[type="text"]{
+             display:block;
+             width: 115px;
+             height: 12px;
+             font-size:12px;
+             display: inline-block;
+        }
+        #headtopright form input[type="submit"] {
+            color: white;
+            font-size: 10px;
+            width: 42px;
+            height: 15px;
+            border-color: white;
+            border-width: thin;
+            margin: 0;
+            padding: 0;
+            background-image: url(bimg.png);
+            background-repeat: repeat;
+            display: inline-block;
+        }
 
 .fcol{
      color: yellow;
      text-decoration:underline;
 }
-#searchbox{
-     padding-top: 10px;
-     padding-left: 100px;
-
-
-}
-#submit {
- color: white;
- font-size: 10px;
- width: 42px;
- height: 15px;
- border-color: white;
- border-width: thin;
- margin: 0;
- padding: 0;
- background-image: url(bimg.png);
- background-repeat: repeat;
- display: inline-block;
-}
-
-
-
 .navsli {
     float: left;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding: 3px 7px;
     font-size: 13px;
     color: grey;
     font-weight: bolder;
-
-
-
 }
-
 
 #navs{
      padding-left: 20px;
      padding-top: 5px;
-
      list-style-type: none;
      overflow: hidden;
 
@@ -201,7 +180,7 @@ background-repeat: repeat;
 #navid li{
      margin:10px;
 }
-#hrule{
+.hrule{
      height: 1px;
      background-color: black;
      border-color: grey;

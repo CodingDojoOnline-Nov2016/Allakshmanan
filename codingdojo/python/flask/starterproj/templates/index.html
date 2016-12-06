@@ -8,15 +8,25 @@
          <div class="dicearea">
                <form action="/roll" method="post">
 
-                    <h2>D4</h2><input type=text id="typeofdice" placeholder="Select type of dice">
-                    <h2> Number of Dice </h2><input type=text id="numberofdice" placeholder="numberofdice">
-                    <input type=submit value="Roll">
+                    <p>
+                         <label> Name of the Player </label>
+                         <input type=text name="name" placeholder="name of the player">
+                    </p>
+                    <p>
+                         <label>Type of Dice</label>
+                         <input type=text name="typeofdice" placeholder="Select type of dice">
+                    </p>
+                    <p>
+                         <label> Number of Dice </label>
+                         <input type=text name="numberofdice" placeholder="numberofdice">
+                    </p>
+                    <p>
+                         <input type=submit value="Roll">
+                    </p>
                </form>
 
+
           </div>
-
-
-
 
      </body>
 
